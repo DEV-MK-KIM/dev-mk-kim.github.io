@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "개발자 노트북"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "MK"
-description              : "An amazing website."
+description              : "늦깎이 개발자의 배우면서 기록하는 소소한 노트 입니다"
 url                      : "https://DEV-MK-KIM.github.io"
 baseurl                  : "logs" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "MK(엠케이)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : # "I am an **amazing** person."
   location         : "AB,Canada"
   email            :
   links:
@@ -270,7 +270,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -279,3 +279,15 @@ defaults:
       comments: true
       share: true
       related: true
+   
+   # _pages
+   - scope:
+    path: "_pages"
+    type: pages
+  values:
+    layout: single
+    author_profile: true
+    read_time: false
+    comments: false
+    share: true
+    related: false    
