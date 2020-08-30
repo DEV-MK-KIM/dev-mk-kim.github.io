@@ -1,6 +1,8 @@
 #main links
 main:
     - title: "블로그 방문하기"
-      url: https://devinlife.com/
+      url: /
     - title: "About"
       url: /about/
+    - title: "카테고리"  
+      url: /categories/
