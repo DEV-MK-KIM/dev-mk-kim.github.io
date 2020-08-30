@@ -1,8 +1,8 @@
 #main links
 main:
-    - title: "블로그 방문하기"
-      url: /
     - title: "About"
       url: /about/
     - title: "카테고리"  
       url: /categories/
+    - title: "Tags"
+      url: /tags/
