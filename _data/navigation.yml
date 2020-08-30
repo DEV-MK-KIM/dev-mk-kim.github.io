@@ -6,5 +6,5 @@ main:
       url: /categories/
     - title: "Tags"
       url: /tags/
-    - title: "Tests"
-      url: /categories/tests
+    - title: "Typescript"
+      url: /categories/typescript
