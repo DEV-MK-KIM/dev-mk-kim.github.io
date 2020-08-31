@@ -273,6 +273,7 @@ defaults:
         path: ""
         type: posts
       values:
+        show_date: true
         layout: single
         author_profile: true
         read_time: true
@@ -288,7 +289,7 @@ defaults:
         layout: single
         author_profile: true
         read_time: false
-        comments: true
+        comments: false
         share: true
         related: true
    
