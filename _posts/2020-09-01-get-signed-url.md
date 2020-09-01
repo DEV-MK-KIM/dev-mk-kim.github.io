@@ -1,12 +1,11 @@
 ---
 title: "Firebase Storage Get Signed URL"
 categories: firebase
+date: 2020-09-01 15:13:28 -0600
 toc: true
 tags:
   - firebase
   - storage
-header:
-  image: "https://source.unsplash.com/1280x444/?tech"
 ---
 
 
