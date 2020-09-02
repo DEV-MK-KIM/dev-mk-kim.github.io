@@ -55,4 +55,7 @@ export { basicHTTP, advanceHTTP, api } from "./http";
 export { createUserRecord } from "./auth";
 ```
 
+만약 여러개의 프로젝트를 사용할 경우
+https://gist.github.com/jofftiquez/1317de9ce97ab72b8295013a3f2ccff0
+
 
