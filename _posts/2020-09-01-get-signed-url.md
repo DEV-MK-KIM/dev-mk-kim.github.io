@@ -16,6 +16,7 @@ tags:
 다음과 같이 생성 가능하다
 
 ```js
+//test.js
 const functions = require('firebase-functions');
 const admin = require('firebase-admin')
 const storage = admin.storage()
@@ -42,6 +43,16 @@ exports = module.exports = functions.https.onRequest(async (req, res) => {
     }
 
 })
+```
+
+```js
+//index.js
+
+/* index애서 initializeApp()을 한 번만 실행하며 나머지 펑션들을 exports 해준다. */
+const admin = require('firebase-admin')
+admin.initializeApp();
+export { basicHTTP, advanceHTTP, api } from "./http";
+export { createUserRecord } from "./auth";
 ```
 
 
