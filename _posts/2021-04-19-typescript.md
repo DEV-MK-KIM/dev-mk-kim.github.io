@@ -46,5 +46,34 @@ ninjaTwo = {
   beltColour: 'black'
 }
 
+//function
+
+let greet: Function
+greet = () => {
+  console.log('hello')
+}
+
+const greet = (a: number, b: number) => {
+  console.log(a + b)
+}
+
+//function signature
+
+//example 1
+let greet: (a: string, b: string) => void
+
+greet = (name: sring, greeting: string) => {
+  console.log(`${name} says ${greeting}`)
+}
+
+//example2
+let calc: (a: number, b: number) => number
+calc = (numOne: number, numTwo:number) => {
+  return numOne + numTwo
+}
+
+
+
+
 ```
 
