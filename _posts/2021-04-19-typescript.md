@@ -1,6 +1,6 @@
 ---
 title: "Typescript Explicit Types"
-categories: firebase
+categories: typescript
 date: 2021-04-19 20:13:28 -0600
 toc: true
 tags:
