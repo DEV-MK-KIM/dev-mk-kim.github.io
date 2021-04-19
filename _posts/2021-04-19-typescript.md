@@ -1,7 +1,7 @@
 ---
 title: "Typescript Explicit Types"
 categories: typescript
-date: 2021-04-19
+date: 2021-04-19 00:00:00 -06:00
 toc: true
 tags:
   - typescript
